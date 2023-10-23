@@ -1,0 +1,76 @@
+.chat_auth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 100px 50px 0;
+}
+
+.chat_form {
+    margin-top: 10px;
+}
+
+.chat_field {
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.chat_button {
+    padding: 6px 25px;
+    background-color: inherit;
+    cursor: pointer;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+.chat_input {
+    margin-right: 10px;
+    padding: 6px;
+}
+
+.chat_messages {
+    padding: 10px;
+}
+
+.chat_button:hover {
+    background-color: rgb(221, 221, 221);
+}
+
+.auth_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 800px;
+}
+
+.auth_login {
+    padding: 6px;
+    width: 250px;
+}
+
+.auth_password {
+    padding: 6px;
+    width: 250px;
+}
+
+.auth_button {
+    padding: 6px 30px;
+    background-color: inherit;
+    transition: 0.3s;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.auth_button:hover {
+    background-color: #e2e2e2;
+}
+
+.error {
+    border: 1px solid red;
+}

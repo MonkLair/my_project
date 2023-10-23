@@ -1,0 +1,132 @@
+.homepage {
+    width: 100%;
+    background-color: #171718;
+    background-image: url(../assets/imgs/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 695px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.main_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.main_title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.main_title h1 span {
+    color: #5c62ec;
+    font-size: 60px;
+}
+
+.main_title span {
+    font-size: 40px;
+}
+
+.main_text {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.main_button {
+    margin-top: 15px;
+}
+
+.btn {
+    background-color: #5c62ec;
+    color: white;
+    height: 48px;
+    padding: 12px 28px;
+    width: 155px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    opacity: 0.83;
+}
+
+.homepage_info {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.info_item:first-child {
+    margin-bottom: 40px;
+}
+
+.info_item_title {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.info_item span {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #171718;
+    color: white;
+    position: relative;
+}
+
+.links { 
+    display: flex;
+    justify-content: space-between;
+    width: 310px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.footer_links {
+    pointer-events: none;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vk {
+    background-image: url(../assets/icons/vk.svg);
+}
+.inst {
+    background-image: url(../assets/icons/instagram.svg);
+}
+.git {
+    background-image: url(../assets/icons/gitHub.svg);
+}
+.tw {
+    background-image: url(../assets/icons//twitter.svg);
+}
+.in {
+    background-image: url(../assets/icons/linkedIn.svg);
+}
